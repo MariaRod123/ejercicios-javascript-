@@ -3,9 +3,8 @@ body{
 
     margin:0px;
     padding: 0px;
-    display: grid;
-    align-items: center;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     background-color:rgb(29, 29, 29);
     
 }
@@ -16,8 +15,8 @@ body{
     align-items: center;
     width:600px;
     height:600px ;
-    background-color: rgb(211, 208, 208);
-    border-radius: 8px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 4px;
     margin: 10px 10px;
     
     
@@ -37,14 +36,13 @@ body{
 }
 .button:focus{
     outline:none;
-    background-color:rgb(80, 80, 230) ;
+    background-color:blue;
     box-shadow: 0px 0px 8px 4px rgb(126, 180, 250) ;
 
 }
 
 .button:hover{
-    background-color:rgb(80, 80, 230) ;
-    border: 2px solid rgb(40, 40, 241);
+    background-color:blue;
     font-size: 16px;
     cursor: pointer;
     
@@ -54,6 +52,6 @@ img{
     object-fit:cover;
     width: 500px;
     height: 300px;
-    border-radius: 8px;
+    border-radius: 4px;
    
 }
