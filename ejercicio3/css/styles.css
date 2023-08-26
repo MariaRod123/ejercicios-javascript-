@@ -36,19 +36,19 @@ body{
 }
 .button:focus{
     outline:none;
-    background-color:blue;
+    background-color:rgb(27, 27, 209);
     box-shadow: 0px 0px 8px 4px rgb(126, 180, 250) ;
 
 }
 
 .button:hover{
-    background-color:blue;
+    background-color:rgb(27, 27, 209);
     font-size: 16px;
     cursor: pointer;
     
 }
 
-img{
+#imagen{
     object-fit:cover;
     width: 500px;
     height: 300px;
